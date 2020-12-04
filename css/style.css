@@ -1,0 +1,199 @@
+/*font-family: 'Overpass', sans-serif;*/
+/*font-family: 'Press Start 2P', cursive;*/
+/*font-family: 'Red Hat Display', sans-serif;*/
+
+/*Geral*/
+
+.row{
+    margin: 0;
+}
+.container{
+    padding: 0;
+    margin: 0;
+}
+/*navbar*/
+header, .navbar{
+    background-color: #6a40bf;
+   
+}
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0px;
+}
+#logo{
+    padding: 0;
+    margin-left: 10px;
+    width: 250px;
+}
+.navbar-brand {
+    padding: 0;
+  
+}
+.navbar-nav a{
+    color: #ffffff;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 900;
+    margin: 10px;
+}
+.navbar-nav a:hover{
+    color:#fd591e;
+}
+/*banner*/
+.banner-one {
+    background-color: #6a40bf;
+    margin-top: 50px;
+}
+.img-banner-one{
+    margin-top: 50px;
+    width: 500px;
+   
+}
+.img-banner-oneone{
+    text-align: center;
+}
+.text-banner-one{
+    /*text-align: center;*/
+    margin-top: 150px;
+    font-size: 10px;
+    color: #ffffff;
+    font-family: 'Overpass', sans-serif;   
+    ;
+}
+.text-banner-one-text-destaque{
+    color: #fd591e;
+    text-decoration: underline;
+}
+#vertical{
+    transform: rotate(-90deg);
+}
+.seta-banner{
+    width: 20px;
+    transform: rotate(90deg);
+}
+.text-banner-one-text{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 900;
+}
+.frase-destaque{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*cta one*/
+.cta-one{
+    margin-top: 30px;
+    align-items: center;
+   
+}
+.cta-one-text-one{
+    font-family: 'Overpass', sans-serif;
+    color: #6a40bf;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.img-cta-one{
+    max-width: 100px;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+}
+.cta-one-text-two{
+    font-family: 'Overpass', sans-serif;
+    color: #6a40bf;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*call to act1*/
+.product-area{
+    margin: 100px;
+}
+.main-title{
+    color: #fd591e;
+    font-family: 'Overpass', sans-serif;
+}
+.product-area p{
+    color: #fd591e;
+    font-size: 16px;
+}
+.img-area{
+    width: 20px;
+    margin-bottom: 0;
+
+}
+.product-area-col{
+    margin-top: 20px;
+}
+/*Clientes*/
+#clientes-area{
+    background-color: #fd591e;
+    padding: 20px;
+    margin-top: 0;
+}
+.title-clientes{
+    color: #ffffff;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+.img-row-clientes{
+    width: 200px;
+    margin: 20px;
+}
+/*cases*/
+#contact-area{
+    padding-top: 50px;
+}
+#cases-area{
+  text-align: center;
+
+}
+#clientes-area{
+    margin: 0;
+}
+.img-cases{
+    margin: 100px;
+}
+.title-cases{
+    margin-top: 50px;
+    color: #6a40bf;
+    text-transform: uppercase;
+}
+.text-cases{
+    color: #6a40bf;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+.text-rotate{
+    padding: 20px;
+}
+/*footer*/
+#contact-area{
+    background-color: #6a40bf;
+}
+.title-footer{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+.title-text-footer{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text-footer{
+    color: #ffffff;
+    font-size: 20px;
+}
+.seta-footer{
+    width: 40px;
+}
+.contact-box{
+    border-right: 1px solid #FFF;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+
