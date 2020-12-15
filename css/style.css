@@ -4,13 +4,13 @@
 
 /*Geral*/
 
+body{
+    margin: 0;
+}
 .row{
     margin: 0;
 }
-.container{
-    padding: 0;
-    margin: 0;
-}
+
 /*navbar*/
 header, .navbar{
     background-color: #6a40bf;
@@ -65,6 +65,8 @@ header, .navbar{
 }
 #vertical{
     transform: rotate(-90deg);
+    
+    
 }
 .seta-banner{
     width: 20px;
@@ -82,8 +84,9 @@ header, .navbar{
 }
 /*cta one*/
 .cta-one{
-    margin-top: 30px;
+    margin-top: 80px;
     align-items: center;
+    position: relative;
    
 }
 .cta-one-text-one{
@@ -94,10 +97,11 @@ header, .navbar{
     
 }
 .img-cta-one{
-    max-width: 100px;
     max-height: 120px;
     width: auto;
     height: auto;
+   margin-left: 50%;
+
 }
 .cta-one-text-two{
     font-family: 'Overpass', sans-serif;
@@ -120,11 +124,27 @@ header, .navbar{
 }
 .img-area{
     width: 20px;
-    margin-bottom: 0;
+    margin-bottom: 25px;
 
 }
 .product-area-col{
     margin-top: 20px;
+    margin-left: 200px;
+}
+.product-area-img{
+    margin-top: -400px;
+    width: 400px;
+    right: 100px;
+    left: 100px;
+    position: absolute;
+    opacity: 0.2;
+
+}
+/*Img destaque*/
+#img-equipe{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0;
 }
 /*Clientes*/
 #clientes-area{
@@ -134,12 +154,15 @@ header, .navbar{
 }
 .title-clientes{
     color: #ffffff;
-    font-size: 80px;
+    font-size: 50px;
     text-transform: uppercase;
+    margin-top: 20px;
 }
 .img-row-clientes{
-    width: 200px;
+    width: 60px;
     margin: 20px;
+    text-align: center;
+    margin-left: 250px;
 }
 /*cases*/
 #contact-area{
@@ -149,25 +172,42 @@ header, .navbar{
   text-align: center;
 
 }
+.cases-area-2{
+    margin-top: 0;
+}
 #clientes-area{
     margin: 0;
 }
 .img-cases{
     margin: 100px;
+    width: 200px;
 }
 .title-cases{
     margin-top: 50px;
     color: #6a40bf;
     text-transform: uppercase;
+    
 }
 .text-cases{
     color: #6a40bf;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     text-align: left;
+    margin-top: 100px;
 }
 .text-rotate{
     padding: 20px;
+    margin-top: 200px;
+    width: 80px;
+}
+.text-banner-two{
+    /*text-align: center;*/
+    margin-top: 200px;
+    font-size: 10px;
+    color: #6a40bf;
+    font-family: 'Overpass', sans-serif;   
+    padding: 0;
+   
 }
 /*footer*/
 #contact-area{
@@ -176,7 +216,7 @@ header, .navbar{
 .title-footer{
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 70px;
+    font-size: 50px;
 }
 .title-text-footer{
     color: #ffffff;
@@ -194,6 +234,42 @@ header, .navbar{
     border-right: 1px solid #FFF;
     padding-bottom: 50px;
     margin-bottom: 50px;
+}
+
+#contact-area .fab{
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#contact-area p{
+    color: #ffffff;
+    padding-left: 40px;
+    font-size: 10px;
+    margin-top: 0px;
+}
+.copy-footer{
+    margin-bottom: 0px;
+}
+#endereco{
+    margin-top: 1px solid #ffffff;
+}
+
+/*mobile*/
+@media(min-width:1025px){
+    #logo{
+        padding: 0;
+        margin-left: 10px;
+        width: 200px;
+    }
+    .navbar-nav a{
+        color: #ffffff;
+        font-family: 'Overpass', sans-serif;
+        font-weight: 500;
+        margin: 10px;
+    }
+    #navbar-links{
+        padding-left: -300px;
+    }
 }
 
 
