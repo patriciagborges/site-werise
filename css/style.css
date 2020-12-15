@@ -112,7 +112,8 @@ header, .navbar{
 }
 /*call to act1*/
 .product-area{
-    margin: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 .main-title{
     color: #fd591e;
@@ -135,7 +136,7 @@ header, .navbar{
     margin-top: -400px;
     width: 400px;
     right: 100px;
-    left: 100px;
+    left: 80px;
     position: absolute;
     opacity: 0.2;
 
