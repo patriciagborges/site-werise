@@ -249,6 +249,7 @@ margin-top: 100px;
   color: #fd591e;
   font-size: 16px;
   font-family: 'Red Hat Display', sans-serif;
+  margin-bottom: 20px;
 }
 .img-area {
   width: 20px;
@@ -304,54 +305,32 @@ margin-top: 100px;
           margin-right: 50px;
           margin-left: 50px;
         }
-
-
 }
 /*Img destaque*/
 #img-equipe {
   max-width: 100%;
   height: auto;
   margin-bottom: 0;
+  margin-top: 100px;
+  padding-top: 100px;
 }
 /*Clientes*/
-#clientes-area {
-  background-color: #fd591e;
-  padding: 20px;
-  margin-top: 0;
+#clientes-area{
+    background-color: #fd591e;
 }
-.title-clientes {
-  color: #ffffff;
-  font-size: 50px;
-  text-transform: uppercase;
-  margin-top: 20px;
+.title-clientes{
+    width: 250px;
 }
-.img-row-clientes {
-  width: 60px;
-  margin: 20px;
-  text-align: center;
-  margin-left: 250px;
-}
+
 /*cases*/
-#contact-area {
-  padding-top: 50px;
-}
-#cases-area {
-  text-align: center;
-}
-.cases-area-2 {
-  margin-top: 0;
-}
-#clientes-area {
-  margin: 0;
-}
-.img-cases {
-  margin: 100px;
-  width: 200px;
-}
-.title-cases {
-  margin-top: 50px;
+
+.title-cases1 {
+  margin-top: 100px;
   color: #6a40bf;
   text-transform: uppercase;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 200px;
+
 }
 .text-cases {
   color: #6a40bf;
@@ -360,11 +339,10 @@ margin-top: 100px;
   text-align: left;
   margin-top: 100px;
 }
-.text-rotate {
-  padding: 20px;
-  margin-top: 200px;
-  width: 80px;
+.img-cases{
+    width: 10px;
 }
+
 .text-banner-two {
   /*text-align: center;*/
   margin-top: 200px;
