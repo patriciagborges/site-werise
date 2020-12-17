@@ -4,15 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="/img/favicon.jpeg">
+  <link rel="shortcut icon" href="/img/FAVICON.png">
+
+
   <title>Werise | Parceiro Salesforce</title>
   <!--fontes-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;700;900&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;800&family=Press+Start+2P&family=Red+Hat+Display:wght@400;700;900&display=swap" rel="stylesheet">
+
   <!--css link-->
   <link rel="stylesheet" href="/css/style.css">
   <!--script-->
@@ -23,6 +22,7 @@
   <script src="https://kit.fontawesome.com/2513f03c89.js" crossorigin="anonymous"></script>
   <!--parallax-->
   <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -31,11 +31,11 @@
     <div class="container" id="nav-container">
       <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="#">
-          <img src="/img/LOGO.png" id="logo" alt="logo werise">
+          <img src="/img/LOGO.png" id="logo-img" alt="logo werise">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
           aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span><i class="fas fa-bars"></i></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
           <div class="navbar-nav">
@@ -48,42 +48,50 @@
       </nav>
     </div>
   </header>
-  <main>
+
     <!--banner1-->
+    
     <section class="banner-one">
       <div class="row">
-        <div class="col-lg-11 img-banner-oneone">
+        <div class="col-lg-12">
           <img src="/img/PESSOAS.png" class="img-banner-one" alt="imagem do banner">
         </div>
-        <div class="col-lg-1">
-          <p class="text-banner-one" id="vertical">entre em contato</p>
-          <img src="/img/SETA(1).png" class="seta-banner" alt="entre em contato">
-        </div>
         <div class="col-sm-12 frase-destaque">
-          <h2 class="text-banner-one-text">Conectando experiências <span
-              class="text-banner-one-text-destaque">incríveis</span></h2>
+          <h2 class="text-banner-one-text">Conecte o <span
+              class="text-banner-one-text-destaque">incrível</span>
+          </h2>
+          <div class="row">
+            <div class="col-lg-11">
+              <p class="cta1">entre em contato</p>
+            </div>
+            <div class="col-lg-1">
+              <img class="seta-banner" src="/img/SETA(1).png" alt="seta">
+            </div>
+          </div>
+         
+
         </div>
       </div>
     </section>
-
+    <main>
     <!--call ti act1-->
     <section class="container">
       <div class="cta-one ">
         <div class="row">
           <div class="col-lg-5">
-            <h2 class="cta-one-text-one">Conte com a gente para fazer seu negócio crescer na velocidade de um foguete
+            <h2 class="cta-one-text-one">Conte com a gente <br> para fazer seu negócio crescer na velocidade de um foguete
             </h2>
           </div>
-          <div class="col-lg-2">
-            <img src="/img/DIVISOR.png" class="img-cta-one" alt="imagem de divisão de conteúdo">
+          <div class="col-lg-2" >
+            <img id="rotate" src="/img/DIVISOR.png" class="img-cta-one" alt="imagem de divisão de conteúdo">
           </div>
           <div class="col-lg-5">
-            <h1 class="cta-one-text-two">somos uma empresa silver partner da salesforce</h1>
+            <h1 class="cta-one-text-two">somos <br> uma empresa <br>silver partner <br> da salesforce</h1>
           </div>
         </div>
       </div>
     </section>
-    <!--area de produtos-->
+    <!--area de produtos
     <div class="product-area">
       <div class="col-ms-12">
         <div class="row">
@@ -136,12 +144,12 @@
         </div>
       </div>
     </div>
-      <!--img destaque-->
+      <!--img destaque
      
         <img id="img-equipe" src="/img/FOTO_EQUIPE.jpg" class="img-fluid" alt="">
     
     
-    <!--clientes-->
+    <!--clientes
     <div id="clientes-area">
       <div class="container" id="">
         <div class="row">
@@ -166,7 +174,7 @@
         </div>
       </div>
     </div>
-    <!--cases-->
+    <!--cases
     <div id="cases-area">
       <div class="container">
         <div class="row">
@@ -238,7 +246,7 @@
   </div>
   </main>
   <footer>
-    <!--footer-->
+    <!--footer
     <div id="contact-area">
       <div class="container">
         <div class="row" id="endereco">
