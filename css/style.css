@@ -229,8 +229,8 @@ header,
 /*call to act1*/
 .product-area {
 margin-top: 100px;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 .main-title {
   color: #fd591e;
@@ -247,7 +247,7 @@ margin-top: 100px;
   }
 .product-area p {
   color: #fd591e;
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'Red Hat Display', sans-serif;
   margin-bottom: 20px;
 }
@@ -258,7 +258,11 @@ margin-top: 100px;
 }
 .product-area-col {
   margin-top: 20px;
+  margin: 30px;
  
+}
+.col-lg-4{
+  padding: 20px 30px;
 }
 .product-area-img {
   margin-top: -400px;
@@ -277,6 +281,7 @@ margin-top: 100px;
         margin-top: 20px;
         margin-left: 20px;
       }
+    }
 @media(max-width:801px){
     .product-area-img{
         width: 400px;
@@ -311,16 +316,32 @@ margin-top: 100px;
   max-width: 100%;
   height: auto;
   margin-bottom: 0;
-  margin-top: 100px;
-  padding-top: 100px;
+}
+
+/*img e equipe*/
+@media(max-width:1025px){
+    #img-equipe {
+        margin-top: 0;
+        padding-top: 0;
+      }
 }
 /*Clientes*/
 #clientes-area{
-    background-color: #fd591e;
+  background-color: #6a40bf;
+
 }
-.title-clientes{
-    width: 250px;
+.carousel-item{
+  width: 20px;
+  height: 20px;
+  object-fit: fill;
+  padding: 100px;
 }
+
+
+
+
+
+
 
 /*cases*/
 
@@ -329,7 +350,7 @@ margin-top: 100px;
   color: #6a40bf;
   text-transform: uppercase;
   font-family: 'Red Hat Display', sans-serif;
-  font-size: 200px;
+  font-size: 20px;
 
 }
 .text-cases {
@@ -351,6 +372,7 @@ margin-top: 100px;
   font-family: "Overpass", sans-serif;
   padding: 0;
 }
+
 /*footer*/
 #contact-area {
   background-color: #6a40bf;
@@ -394,22 +416,4 @@ margin-top: 100px;
 }
 #endereco {
   margin-top: 1px solid #ffffff;
-}
-
-/*mobile*/
-@media (min-width: 1025px) {
-  #logo {
-    padding: 0;
-    margin-left: 10px;
-    width: 200px;
-  }
-  .navbar-nav a {
-    color: #ffffff;
-    font-family: "Overpass", sans-serif;
-    font-weight: 500;
-    margin: 10px;
-  }
-  #navbar-links {
-    padding-left: -300px;
-  }
 }
